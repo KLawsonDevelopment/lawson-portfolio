@@ -4,7 +4,7 @@ class CurrentProjectInformation extends Component {
     render() {
         return (
             <div>
-                
+                CURRENT PROJECT INFORMATION
             </div>
         );
     }

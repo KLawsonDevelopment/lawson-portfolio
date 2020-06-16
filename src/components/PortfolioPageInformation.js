@@ -4,7 +4,7 @@ class PortfolioPageInformation extends Component {
     render() {
         return (
             <div>
-                
+                PORTFOLIO PAGE INFORMATION
             </div>
         );
     }
