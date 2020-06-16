@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(48 48 48);
+  color: rgb(252,250,255)
+}
+
+
+.cssBox {
+  display: grid;
+  grid-template-columns: 20vw 70vw 10vw;
+  grid-template-rows: 15vh 70vh 7vh 8vh;
+}
+
+.menuBar {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+}
+
+.informationBox {
+  grid-column: 2;
+  grid-row: 2;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
