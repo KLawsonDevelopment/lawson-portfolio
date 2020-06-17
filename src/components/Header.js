@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Name extends Component {
+class Header extends Component {
     render() {
         return (
-            <h1 className='namePlace'>
+            <h1 className='headerPlace'>
                 KEITH LAWSON
             </h1>
         );
     }
 }
 
-export default Name;
+export default Header;

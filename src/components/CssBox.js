@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import MenuBar from './MenuBar';
 import InformationBox from './InformationBox';
-import Name from './Name';
+import Header from './Header';
 import Footer from './Footer';
 
 class CssBox extends Component {
     render() {
         return (
             <div className='cssBox'>
-                <Name></Name>
+                <Header></Header>
                 <MenuBar></MenuBar>
                 <InformationBox></InformationBox>
                 <Footer></Footer>

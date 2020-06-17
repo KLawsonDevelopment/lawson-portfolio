@@ -10,7 +10,7 @@ body {
   grid-template-rows: 15vh 70vh 7vh 8vh;
 }
 
-.namePlace {
+.headerPlace {
   grid-column: 3;
   grid-row: 1;
 }
