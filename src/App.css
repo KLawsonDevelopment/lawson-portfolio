@@ -34,6 +34,7 @@ body {
 
 .currentProjectButton {
   border: rgb(17 69 166) 1px solid;
+  color: rgb(252,250,255);
   text-decoration: none;
   background-color:rgb(17 69 166);
   width: 100%;
@@ -42,6 +43,7 @@ body {
 
 .portfolioButton {
     border: rgb(17 69 166) 1px solid;
+    color: rgb(252,250,255);
     text-decoration: none;
     background-color:rgb(17 69 166);
     width: 100%;
@@ -50,6 +52,7 @@ body {
 
 .aboutMeButton {
   border: rgb(17 69 166) 1px solid;
+  color: rgb(252,250,255);
   text-decoration: none;
   background-color: rgb(17 69 166);
   width: 100%;
