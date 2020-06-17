@@ -10,6 +10,16 @@ body {
   grid-template-rows: 15vh 70vh 7vh 8vh;
 }
 
+.namePlace {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.footerPlace {
+  grid-column: 3;
+  grid-row: 3
+}
+
 .menuBar {
   grid-column: 1;
   grid-row: 2;
