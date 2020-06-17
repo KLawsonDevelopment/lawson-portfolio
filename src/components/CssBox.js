@@ -6,7 +6,6 @@ class CssBox extends Component {
     render() {
         return (
             <div className='cssBox'>
-                CSSBOX STARTS HERE
                 <MenuBar></MenuBar>
                 <InformationBox></InformationBox>
             </div>

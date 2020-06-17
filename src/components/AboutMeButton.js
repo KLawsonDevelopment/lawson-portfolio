@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class AboutMeButton extends Component {
     render() {
         return (
-            <div className='aboutMeButton'>
+            <button className='aboutMeButton'>
                 ABOUT ME BUTTON
-            </div>
+            </button>
         );
     }
 }

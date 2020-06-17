@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class CurrentProjectButton extends Component {
     render() {
         return (
-            <div>
+            <button className='currentProjectButton'>
                 CURRENT PROJECT BUTTON
-            </div>
+            </button>
         );
     }
 }

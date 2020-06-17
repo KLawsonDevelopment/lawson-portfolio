@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class PortfolioPageButton extends Component {
     render() {
         return (
-            <div>
+            <button className='portfolioButton'>
                 PORTFOLIO BUTTON
-            </div>
+            </button>
         );
     }
 }
