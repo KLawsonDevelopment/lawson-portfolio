@@ -4,6 +4,10 @@ class PortfolioPageInformation extends Component {
     render() {
         return (
             <div className='portfolioPageInformation' id='portfolioPageInformation'>
+                <div className='pleaseScroll'>
+                    Please scroll left to right.
+                </div>
+
                 <div className='testDiv'>
                     <img src={require('./pictures/test-image.jpg')} className='testImage' alt='test' />
                 Test 1
