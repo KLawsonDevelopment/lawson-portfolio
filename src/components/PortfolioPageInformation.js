@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PortfolioPageInformation extends Component {
     render() {
         return (
-            <div>
+            <div className='portfolioPageInformation' id='portfolioPageInformation'>
                 PORTFOLIO PAGE INFORMATION
             </div>
         );
