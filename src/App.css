@@ -1,9 +1,20 @@
 /* Background color is off black, rgb(0 5 10). Text color is an off white, rgb(252, 250, 255). Border/Background for buttons is rgb(17 69 166).*/
 
+@font-face {
+  font-family: 'NovaMono';
+  font-style: normal;
+  src: local('NovaMono'), url('./components/font/nova-mono/NovaMono.ttf') format('truetype');
+}
+
 body {
+  font-family: 'NovaMono';
   background-color: rgb(0 5 10);
   color: rgb(252, 250, 255);
   font-size: large;
+}
+
+body button {
+  font-family: 'NovaMono';
 }
 
 .cssBox {
