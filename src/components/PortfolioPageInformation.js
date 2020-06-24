@@ -5,7 +5,7 @@ class PortfolioPageInformation extends Component {
         return (
             <div className='portfolioPageInformation' id='portfolioPageInformation'>
                 <div className='pleaseScroll'>
-                    Please scroll left to right.
+                    Please scroll up and down.
                 </div>
 
                 <div className='testDiv1'>

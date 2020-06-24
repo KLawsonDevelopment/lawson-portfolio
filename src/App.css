@@ -104,7 +104,7 @@ body {
 }
 
 .showClass {
-  display: flex;
+  display: inline-block;
 }
 
 @media screen and (max-width:1366px) {
