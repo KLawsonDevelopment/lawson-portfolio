@@ -8,7 +8,7 @@ class PortfolioPageInformation extends Component {
                 site: 'https://upbeat-pare-9ca7a2.netlify.app/',
                 img: './pictures/IAmManny.jpg',
                 alt: 'IAmManny',
-                text: 'EXPLINATION HERE: IAmManny',
+                text: `A react based application, using animejs, TwitchEmbed, and javascript to create a Twitch Streamer's personal site. The basic goal of this project was to learn animejs and TwitchEmded, and practice css-grid and flexbox layout. I also learned more about the @media tag while working on this website.`,
                 key: 1
             },
 
@@ -16,7 +16,7 @@ class PortfolioPageInformation extends Component {
                 site: 'https://final-fantasy-project.herokuapp.com/',
                 img: './pictures/FFXIV.jpg',
                 alt: 'FFXIV',
-                text: 'EXPLINATION HERE: FFXIV',
+                text: `A react based application, using axios for API calls, and bootstrap as a framework. The goal of this website was to familiarize myself with axios and API calls, and later on getting a feel for Bootstrap if I ever needed to make websites with it instead of creating the CSS from scratch.`,
                 key: 2
             },
 
@@ -24,24 +24,16 @@ class PortfolioPageInformation extends Component {
                 site: 'https://shielded-lake-76706.herokuapp.com/',
                 img: './pictures/AnimalCrossing.jpg',
                 alt: 'Animal Crossing',
-                text: 'EXPLINATION HERE: Animal Crossing',
+                text: `A react based application, using mongoose/node for data storage and animejs for minor effects. The main goal of this website was to familiarize myself with objects and back end capabilities, including pulling data from separate parts of the backend to generate and add items to it.`,
                 key: 3
-            },
-
-            CharacterData: {
-                site: 'https://character-data.herokuapp.com/',
-                img: './pictures/CharacterData.jpg',
-                alt: 'Character Data',
-                text: 'EXPLINATION HERE: Character Data',
-                key: 4
             },
 
             BlackJack: {
                 site: 'https://nekublackjack.netlify.app/',
                 img: './pictures/BlackJack.jpg',
                 alt: 'Black Jack',
-                text: 'EXPLINATION HERE: Black Jack',
-                key: 5
+                text: `A javascript based application, using mostly CSS and HTML. The first website I created, using nothing but base javascript and the CSS library animejs to make the cards move.`,
+                key: 4
             }
         }
 
@@ -59,7 +51,7 @@ class PortfolioPageInformation extends Component {
                             <a href={websiteObject[key].site}>
                                 <img src={require(`${websiteObject[key].img}`)} alt={websiteObject[key].alt} />
                             </a>
-                            {websiteObject[key].text}
+                            <p>{websiteObject[key].text}</p>
                         </div>
                     })
                 }
