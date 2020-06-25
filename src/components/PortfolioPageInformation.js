@@ -41,22 +41,18 @@ class PortfolioPageInformation extends Component {
 
         return (
             <div className='portfolioPageInformation' id='portfolioPageInformation'>
-                <h2 className='pleaseScroll'>
-                    Please scroll up and down.
-                </h2>
-            <div>
-                {
-                    Object.keys(websiteObject).map((key) => {
-                        return <div key={websiteObject[key].key}>
-                            <a href={websiteObject[key].site}>
-                                <img src={require(`${websiteObject[key].img}`)} alt={websiteObject[key].alt} />
-                            </a>
-                            <p>{websiteObject[key].text}</p>
-                        </div>
-                    })
-                }
-            </div>
-
+                <div>
+                    {
+                        Object.keys(websiteObject).map((key) => {
+                            return <div key={websiteObject[key].key}>
+                                <a href={websiteObject[key].site}>
+                                    <img src={require(`${websiteObject[key].img}`)} alt={websiteObject[key].alt} />
+                                </a>
+                                <p>{websiteObject[key].text}</p>
+                            </div>
+                        })
+                    }
+                </div>
             </div >
         );
     }

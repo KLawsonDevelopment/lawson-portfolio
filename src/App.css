@@ -85,12 +85,6 @@ body button {
   flex-direction: column;
 }
 
-.pleaseScroll {
-  position: fixed;
-  left: 50vw;
-  top: 8vh;
-}
-
 .wireframe {
   height: 20vh;
   width: 20vw;
@@ -160,12 +154,7 @@ body button {
     flex-direction: column;
     border: rgb(17 69 166) 1px solid;
   }
-  .pleaseScroll {
-    position: fixed;
-    left: 25vw;
-    top: 30vh;
-    font-size: small;
-  }
+  
   .currentProjectInformation {
     overflow: scroll;
   }
