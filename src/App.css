@@ -103,8 +103,8 @@ body button {
 }
 
 .portfolioPageInformation img {
-  height: 25vh;
-  width: 25vw;
+  height: 30vh;
+  width: 30vw;
 }
 
 @media screen and (max-width:1366px) {
@@ -154,7 +154,7 @@ body button {
     flex-direction: column;
     border: rgb(17 69 166) 1px solid;
   }
-  
+
   .currentProjectInformation {
     overflow: scroll;
   }
