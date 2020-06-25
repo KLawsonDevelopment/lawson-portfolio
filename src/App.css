@@ -43,25 +43,7 @@ body button {
   border: rgb(17 69 166) 1px solid;
 }
 
-.currentProjectButton {
-  border: rgb(17 69 166) 1px solid;
-  color: rgb(252, 250, 255);
-  text-decoration: none;
-  background-color: rgb(17 69 166);
-  width: 100%;
-  height: 20vh;
-}
-
-.portfolioButton {
-  border: rgb(17 69 166) 1px solid;
-  color: rgb(252, 250, 255);
-  text-decoration: none;
-  background-color: rgb(17 69 166);
-  width: 100%;
-  height: 20vh;
-}
-
-.aboutMeButton {
+.menuBar button {
   border: rgb(17 69 166) 1px solid;
   color: rgb(252, 250, 255);
   text-decoration: none;
@@ -106,7 +88,7 @@ body button {
 .pleaseScroll {
   position: fixed;
   left: 50vw;
-  top: 18vh;
+  top: 8vh;
 }
 
 .wireframe {
@@ -116,6 +98,19 @@ body button {
 
 .showClass {
   display: inline-block;
+}
+
+.portfolioPageInformation div {
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolioPageInformation img {
+  height: 25vh;
+  width: 25vw;
 }
 
 @media screen and (max-width:1366px) {
@@ -151,15 +146,11 @@ body button {
     align-items: center;
     border: rgb(17 69 166) 1px solid;
   }
-  .aboutMeButton {
+
+  .menuBar button {
     height: 10vh;
   }
-  .portfolioButton {
-    height: 10vh
-  }
-  .currentProjectButton {
-    height: 10vh;
-  }
+
   .informationBox {
     grid-column: 2;
     grid-row: 5;
@@ -171,8 +162,9 @@ body button {
   }
   .pleaseScroll {
     position: fixed;
-    left: 41vw;
-    top: 38vh;
+    left: 25vw;
+    top: 30vh;
+    font-size: small;
   }
   .currentProjectInformation {
     overflow: scroll;
@@ -181,5 +173,10 @@ body button {
   .wireframe {
     height: 20vh;
     width: 70vw;
+  }
+
+  .portfolioPageInformation img {
+    height: 25vh;
+    width: 75vw;
   }
 }
