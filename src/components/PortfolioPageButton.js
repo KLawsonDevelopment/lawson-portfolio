@@ -17,7 +17,7 @@ class PortfolioPageButton extends Component {
     render() {
         return (
             <button className='portfolioButton' onClick={this.displayInformation}>
-                PORTFOLIO BUTTON
+                PORTFOLIO
             </button>
         );
     }

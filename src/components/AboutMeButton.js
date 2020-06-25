@@ -17,7 +17,7 @@ class AboutMeButton extends Component {
     render() {
         return (
             <button className='aboutMeButton' onClick={this.displayInformation}>
-                ABOUT ME BUTTON
+                ABOUT ME
             </button>
         );
     }

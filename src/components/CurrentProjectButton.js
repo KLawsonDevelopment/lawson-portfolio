@@ -17,7 +17,7 @@ class CurrentProjectButton extends Component {
     render() {
         return (
             <button className='currentProjectButton' onClick={this.displayInformation}>
-                CURRENT PROJECT BUTTON
+                CURRENT PROJECT
             </button>
         );
     }
