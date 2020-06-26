@@ -28,11 +28,6 @@ body button {
   grid-row: 1;
 }
 
-.footerPlace {
-  grid-column: 3;
-  grid-row: 3
-}
-
 .menuBar {
   grid-column: 1;
   grid-row: 2;
@@ -111,10 +106,12 @@ body button {
   body {
     font-size: initial;
   }
+
   .cssBox {
     grid-template-columns: 10vw 80vw 10vw;
     grid-template-rows: 5vh 10vh 10vh 10vh 55vh 10vh
   }
+
   .headerPlace {
     display: flex;
     align-items: center;
@@ -123,14 +120,7 @@ body button {
     grid-row: 1;
     font-size: 20px;
   }
-  .footerPlace {
-    grid-column: 2;
-    grid-row: 6;
-    font-size: 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   .menuBar {
     grid-column: 2;
     grid-row: 2/4;
@@ -167,5 +157,9 @@ body button {
   .portfolioPageInformation img {
     height: 25vh;
     width: 75vw;
+  }
+
+  .socialMedia {
+    font-size: 3vw;
   }
 }

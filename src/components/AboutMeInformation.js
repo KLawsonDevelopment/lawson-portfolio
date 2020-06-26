@@ -4,9 +4,9 @@ class AboutMeInformation extends Component {
     render() {
         return (
             <div className='aboutMeInformation' id='aboutMeInformation'>
-                ABOUT ME INFORMATION
+                <p>ABOUT ME INFORMATION</p>
 
-                LINKEDIN/GITHUB/KLAWSONDEVELOPMENT@GMAIL.COM
+                <h2 className='socialMedia'>LINKEDIN/GITHUB/KLAWSONDEVELOPMENT@GMAIL.COM</h2>
             </div>
         );
     }
