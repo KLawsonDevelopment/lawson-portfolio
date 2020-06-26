@@ -5,6 +5,8 @@ class AboutMeInformation extends Component {
         return (
             <div className='aboutMeInformation' id='aboutMeInformation'>
                 ABOUT ME INFORMATION
+
+                LINKEDIN/GITHUB/KLAWSONDEVELOPMENT@GMAIL.COM
             </div>
         );
     }

@@ -41,7 +41,6 @@ class PortfolioPageInformation extends Component {
 
         return (
             <div className='portfolioPageInformation' id='portfolioPageInformation'>
-                <div>
                     {
                         Object.keys(websiteObject).map((key) => {
                             return <div key={websiteObject[key].key}>
@@ -52,7 +51,6 @@ class PortfolioPageInformation extends Component {
                             </div>
                         })
                     }
-                </div>
             </div >
         );
     }
